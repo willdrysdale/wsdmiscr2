@@ -16,9 +16,9 @@ test_that("success input is data.frame", {
 })
 
 test_that("success input is tibble", {
-  expect_identical(pad_time_series(.data = tibble(starting_data),
+  expect_identical(pad_time_series(.data = dplyr::tibble(starting_data),
                                    period = 3600),
-                   tibble(successful_pad))
+                   dplyr::tibble(successful_pad))
 })
 
 test_that("error input has no date column", {

@@ -10,10 +10,9 @@
 
 tidy_rle = function(rle_obj) {
   rle_df = dplyr::tibble(lengths = rle_obj$lengths,
-                         values = rle_obj$values)  |>
-    dplyr::mutate(idx_start = cumsum(c(1, lengths))[1:(nrow(.))],
+                         values = rle_obj$values)
+
+  dplyr::mutate(rle_df, idx_start = cumsum(c(1, lengths))[1:(nrow(rle_df))],
                   idx_end = cumsum(lengths))
 
-  #
-  rle_df
 }
