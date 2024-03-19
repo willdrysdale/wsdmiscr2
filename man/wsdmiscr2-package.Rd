@@ -4,9 +4,9 @@
 \name{wsdmiscr2-package}
 \alias{wsdmiscr2}
 \alias{wsdmiscr2-package}
-\title{wsdmiscr2: What the Package Does (One Line, Title Case)}
+\title{wsdmiscr2: wsdmiscr2}
 \description{
-What the package does (one paragraph).
+Miscelleneous functions useful in atmospheric science research.
 }
 \author{
 \strong{Maintainer}: Will Drysdale \email{will.drysdale@york.ac.uk}
