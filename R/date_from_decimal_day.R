@@ -16,8 +16,8 @@ date_from_decimal_day = function(decimal_day, date_origin, tz = "UTC") {
 
   seconds = 86400 * decimal
 
-  day = as.Date(doy-1, origin = date_origin) %>%
-    as.character() %>%
+  day = as.Date(doy-1, origin = date_origin)  |>
+    as.character() |>
     as.POSIXct(tz = tz, format = "%Y-%m-%d")
 
   #

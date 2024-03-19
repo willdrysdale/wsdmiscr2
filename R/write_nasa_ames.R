@@ -36,12 +36,12 @@
 #' @param IVOL integer This files volume index
 #' @param NVOL integer Total number of files in volume (i.e. files that share ONAME, ORG, SNAME and MNAME)
 #' @param DATE string of date when data was taken in format to be parsed by \code{lubridate::ymd()}
-#' @param DX interval of independant variable, zero if not consistant
-#' @param XNAME tring containing name of independant variable max length 132 characters
-#' @param X_col column number containing independant variable
-#' @param NV_col interger or vector of integers corresponding to column number containing primary variables
-#' @param VSCALn interger or vector of integers corresponding to scaling factors of primary variables, default all 1
-#' @param VMISSn interger or vector of integers corresponding to missing values of primary variables, default all 99999
+#' @param DX interval of independent variable, zero if not consistent
+#' @param XNAME string containing name of independent variable max length 132 characters
+#' @param X_col column number containing independent variable
+#' @param NV_col integer or vector of integers corresponding to column number containing primary variables
+#' @param VSCALn integer or vector of integers corresponding to scaling factors of primary variables, default all 1
+#' @param VMISSn integer or vector of integers corresponding to missing values of primary variables, default all 99999
 #' @param VNAMEn string or vector of string containing long names of primary variables, each should not exceed 132 characters
 #' @param SCOMn string or vector of string containing each special comment line
 #' @param NCOMn string or vector of string containing each normal comment line
