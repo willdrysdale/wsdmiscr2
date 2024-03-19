@@ -1,9 +1,9 @@
 Package: wsdmiscr2
-Title: What the Package Does (One Line, Title Case)
+Title: wsdmiscr2
 Version: 0.0.1
 Authors@R: 
     person("Will", "Drysdale", role = c("aut", "cre"), email = "will.drysdale@york.ac.uk")
-Description: What the package does (one paragraph).
+Description: Miscelleneous functions useful in atmospheric science research
 License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
