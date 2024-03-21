@@ -6,7 +6,7 @@
 \alias{wsdmiscr2-package}
 \title{wsdmiscr2: wsdmiscr2}
 \description{
-Miscelleneous functions useful in atmospheric science research.
+Miscellaneous functions useful in atmospheric science research.
 }
 \author{
 \strong{Maintainer}: Will Drysdale \email{will.drysdale@york.ac.uk}
