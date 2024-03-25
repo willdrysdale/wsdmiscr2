@@ -2,14 +2,14 @@
 % Please edit documentation in R/date_from_decimal_day.R
 \name{date_from_decimal_day}
 \alias{date_from_decimal_day}
-\title{date_from_decimal_day}
+\title{date from DOY}
 \usage{
-date_from_decimal_day(decimal_day, date_origin, tz = "UTC")
+date_from_decimal_day(decimal_day, origin, tz = "UTC")
 }
 \arguments{
-\item{decimal_day}{date stored as DOY.decimalday}
+\item{decimal_day}{date stored as date.decimalday}
 
-\item{date_origin}{origin of decimal_day as YYYY/MM/DD}
+\item{origin}{origin of decimal_day as YYYY/MM/DD}
 
 \item{tz}{timezone}
 }
@@ -17,5 +17,5 @@ date_from_decimal_day(decimal_day, date_origin, tz = "UTC")
 decimal_day as POSIXct
 }
 \description{
-converts DOY.decimalday into a POSIXct object.
+converts days.decimalday into a POSIXct object. - note as this is decimal day, Jan 1st 1200 is 0.5
 }

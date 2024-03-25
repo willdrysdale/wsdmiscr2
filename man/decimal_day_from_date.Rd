@@ -4,13 +4,19 @@
 \alias{decimal_day_from_date}
 \title{Decimal day from date}
 \usage{
-decimal_day_from_date(date)
+decimal_day_from_date(date, origin, tz = "UTC")
 }
 \arguments{
 \item{date}{a POSIXct date}
+
+\item{origin}{specify the origin date as a POSIXct. Usually YYYY-01-01 00:00:00 for the most relevant year to the data.#}
+
+\item{tz}{time zone string, defaults to UTC.}
 }
 \description{
-convert a POSIXct in to a number representing day.decimalday, where Jan 1st 12:00 == 1.5
+convert a POSIXct in to a number representing decimal date, where Jan 1st 12:00 == 0.5, if the origin is YYYY-01-01 00:00:00.
+Specification of origin allows for negative values e.g if origin is 2020-01-01 00:00, but the first data point is at 2019-12-31 12:00
+the deciaml day returned will be -0.5.
 }
 \author{
 W. S. Drysdale
