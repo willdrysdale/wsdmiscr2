@@ -7,7 +7,7 @@ Description: Miscellaneous functions useful in atmospheric science research.
 License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports: 
     dplyr,
     lubridate,
